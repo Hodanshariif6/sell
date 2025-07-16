@@ -1,0 +1,95 @@
+.counter{
+    display: flex;
+    gap: 30px;
+}
+.co img{
+    width: 200px;
+    height: 180px;
+}
+.center img{
+    width: 500px;
+    height: 500px;
+}
+.ico{
+    display: flex;
+    margin-top: -39px;
+    font-size: 0.8em;
+}
+.pr{
+    display: flex;
+    gap: 100px;
+    font-size: 1em;
+    color: grey;
+}
+.pr2{
+    display: flex;
+    gap: 100px;
+    font-size: 1em;
+    color: grey;
+margin-left: 60px;
+}
+.pr p span{
+    border: 1px solid red;
+    color: black;
+    padding:16px 30px;
+}
+.hh {
+    font-size: 0.8em;
+    margin-top: -10px;
+}
+.i{
+    display: flex;
+
+}
+del{
+    color: gray;
+}
+.foo{
+    display: flex;
+    gap: 30px;
+    margin-top: -30px;
+}
+.ull{
+    margin-top: -30px;
+}
+#ii{
+    font-size: 1.8em;
+       width: 33px;
+    height: 40px;
+    margin-top: 30px;
+}
+#text{
+    margin-top: 30px;
+    font-size: 1.8em;
+}#ii2{
+    font-size: 1.8em;
+    width: 33px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+#BT{
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+background-color: red;
+border: none;
+}
+#BB{
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid red;
+}
+@media(max-width:390px){
+.counter{
+    display: block;
+}
+.co{
+    margin-left: 60px;
+}
+.center img{
+    width: 360px;
+    height: 360px;
+}
+}
